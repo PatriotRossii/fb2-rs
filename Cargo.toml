@@ -1,0 +1,20 @@
+[package]
+name = "fb2-rs"
+version = "0.1.0"
+authors = ["PatriotRossii <patriotrossii2019@mail.ru>"]
+description = """
+Parser for fb2 format
+"""
+keywords = ["fb2", "parser"]
+repository="https://github.com/PatriotRossii/fb2-rs"
+license = "MIT"
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+xml-rs = "0.8"
